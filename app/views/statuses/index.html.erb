@@ -5,7 +5,7 @@
     <tr>
       <th>Name</th>
       <th>Weight</th>
-      <th>Content</th>
+      <th>Status</th>
       <th></th>
       <th></th>
       <th></th>
@@ -17,7 +17,7 @@
       <tr>
         <td><%= status.name %></td>
         <td><%= status.weight %></td>
-        <td><%= status.content %></td>
+        <td><%= status.status %></td>
         <td><%= link_to 'Show', status %></td>
         <td><%= link_to 'Edit', edit_status_path(status) %></td>
         <td><%= link_to 'Destroy', status, method: :delete, data: { confirm: 'Are you sure?' } %></td>
